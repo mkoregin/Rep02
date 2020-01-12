@@ -26,6 +26,7 @@ namespace ConsoleApp1
             foreach (double i in grades)
             {
                 Sum += i;
+                //comment 1
             }
             return Sum/grades.Count;
         }
